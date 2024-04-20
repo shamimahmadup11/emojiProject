@@ -19,7 +19,7 @@ function displayAllEmojis() {
     displayEmojis(emojiList);
 }
 window.addEventListener("DOMContentLoaded", function () {
-    displayAllEmojis(); // Display all emojis initially
+    displayAllEmojis();
 });
 function displayEmojis(emojis) {
     sowDataHere.textContent = ""; // Clear previous data
